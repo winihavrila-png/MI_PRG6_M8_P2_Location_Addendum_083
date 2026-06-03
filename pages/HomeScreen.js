@@ -42,9 +42,9 @@ const HomeScreen = ({ navigation }) => {
   const [distance, setDistance] = useState(0);
 
   
-  const KAMPUS_LAT = -6.346000;
-  const KAMPUS_LON = 107.149000;
-  const MAKSIMAL_JARAK_METER = 50; // Ubah ke 250 atau 500 untuk testing
+  const KAMPUS_LAT = -6.3481107;
+  const KAMPUS_LON = 107.1483022;
+  const MAKSIMAL_JARAK_METER = 500; // besarin dulu biar bisa test scan QR
 
   const BASE_URL = "http://10.1.10.131:8080/api/presensi";
 

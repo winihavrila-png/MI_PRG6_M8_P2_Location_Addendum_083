@@ -12,7 +12,7 @@ import * as Location from "expo-location";
 import axios from "axios";
 
 // ✅ Ganti dengan IP komputer kamu (cek dengan ipconfig / ifconfig)
-const BASE_URL = "http://10.9.X.X:9000/api/presensi";
+const BASE_URL = "http://10.1.10.131:8080/api/presensi";
 
 export default function LocationScreen() {
   const [loading, setLoading]                   = useState(true);
